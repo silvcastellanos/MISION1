@@ -1,39 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-       <title>Document</title>
-       <link rel="stylesheet" href="./styles.css">
-
-
-</head>
-<body>
-    <section>
-        <div class="logo">
-            <img src="/logo.png" alt="logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/practica.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="/logo.png" alt="logo" />
+      </div>
+    </header>
+    <main>
+      <nav>
+        <a href="">Acerca de Nosotros</a>
+        <a href="">Opciones Saludables</a>
+        <a href="">Compra en línea</a>
+      </nav>
+      <section class="container-carruosel">
+        <div class="container-items">
+          <div class="container-img">
+            <img class="img" src="/cupcakes.jpg" alt="cupcakes" />
+          </div>
+          <div class="container-description">
+            <h4>Cupcakes Personalizados</h4>
+            <p>
+              Realizamos cupcakes con las tematicas de tu preferencias en los sabores que mas te gusten o en su sabor tradicional
+            </p>
+          </div>
         </div>
-        </section>
-        
-        
-    <div class="inicio">
-        <h2>
-            Inicio
-        </h2>
+        <div class="container-items">
+          <div class="container-img">
+            <img class="img" src="/memecakes.jpg" alt="cupcakes" />
+          </div>
+          <div class="container-description">
+            <h4>Memecakes</h4>
+            <p>
+              Endulza y divierte tus momentos con un memecakes de vainilla tradicional, red velvet o chocolate con el diseño de tu preferencia
+            </p>
+          </div>
+        </div>
+        <div class="container-items">
+          <div class="container-img">
+            <img class="img" src="/ponque.JPG" alt="cupcakes" />
+          </div>
+          <div class="container-description">
+            <h4>Ponqués</h4>
+            <p>
+              Disfruta de una deliciosa pasta de ponque en sus tres presentaciones: Vainilla tradicional, red velvet y chocolate, con relleno de frutos rojos, arequipe, chocolate, maracuya y mas.
+            
+            </p>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      
+      <div class="contact-form">
+        <h2>Contáctanos</h2>
+        <br>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
     </div>
-    <div class="acerca de nosotros">
-        <h2>
-            Acerca de Nosotros
-        </h2>
-    </div>
-    <div class="productos">
-        <h2>
-            Productos
-        </h2>
-    </div>
-    <div class="contacto">
-        <h2>
-            Contacto
-        </h2>
-    </div>
-    
-   </body>
+    <br>
+    <br>
+   
+    <section>
+
+      <footer>
+        <div class="info-contacto">
+            <h3><i>Endulza tu día</i></h3>
+            <a href="https://wa.me/3006932804" target="_blank">
+              <div>
+              <img src="/contacto.png" alt="WhatsApp"> 300 693 2804
+            </div>
+          </a>
+            <p><i>Instagram:</i> @monamourartedulce</p>
+        </div>
+            </footer>
+
+    </section>
+
+    </main>
+  </body>
 </html>
